@@ -1,0 +1,30 @@
+.header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.bar {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.bar li {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.bar li:last-child {
+  margin-right: 40px;
+}
